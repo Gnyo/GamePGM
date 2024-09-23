@@ -168,5 +168,33 @@ void shuffle_card(trump m_card[]){
 - rand 함수를 사용하기 위해서는 stdlib.h 헤더파일을 include 해야 함
 - 0부터 RAND_MAX 범위까지의 난수 생성
 - int형 반환
+- rand 함수만을 사용해서 정수 10개의 수를 뽑으면 숫자가 랜덤하지 않게 나옴
 
+#### srand 함수
+- rand 함수는 srand 함수에 의존적
+- srand의 s는 seed로, seed 값에 따라 rand의 값이 바뀜
+- srand를 호출하지 않고 rand 함수 호출 시, srand(1)을 호출한 것과 같아짐
+- seed 값은 양의 정수
+
+#### time 함수
+- time 함수는 시간에 대한 정보를 얻어오는 함수
+- 사용하기 위해서는 time.h 헤더파일을 include 해야 함
+- time(NULL)은 1970년 1월 1일 0시부터 현재까지 흐른 시간(초단위)을 반환
+
+#### 난수 생성
+```
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <time.h> 
+
+int main() { 
+        int i; 
+        srand(time(NULL));
+
+        for (i = 1; i <= 10; i++)  
+                printf("%d ", (rand() % 100) + 1);
+        printf("\n");
+}
+```
+- 위의 코드는 실행할 때마다 time에 따라 srand의 seed 값이 바뀌므로 난수를 생성할 수 있음
 
