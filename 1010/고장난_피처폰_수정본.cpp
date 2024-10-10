@@ -25,7 +25,6 @@ char alpha[][3] = {{' '}, {'a', 'b', 'c'}, {'d', 'e', 'f'},
 
 int main() {
     SetConsoleTitle("고장난 피처폰");
-    system("color F0");
     
     main_mode();
     control();
@@ -33,8 +32,10 @@ int main() {
 
 void main_mode() {
 	system("cls");
+	system("color F0"); // 색상 변화 
     pad();
     update_time();  //현재 시간 출력 
+
     gotoxy(12, 6);
     printf("전화");
     gotoxy(12, 8);
@@ -45,6 +46,7 @@ void main_mode() {
 
 void call_mode() {
     system("cls");
+    system("color E0"); // 색상 변화 
     pad();
     gotoxy(9, 2);
     printf("전화 모드");
@@ -81,6 +83,7 @@ void call_mode() {
 
 void text_mode() {
     system("cls");
+    system("color E0"); // 색상 변화 
     pad();
     gotoxy(9, 2);
     printf("문자 모드");
