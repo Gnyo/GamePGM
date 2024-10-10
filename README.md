@@ -17,8 +17,8 @@
 ① <a href="https://github.com/Gnyo/gamepgm/tree/main/0919"> 강의 정리 & 코드 </a></br>
 
 #### 0926
-① <a href="https://github.com/Gnyo/gamepgm/tree/main/0919"> 강의 정리 & 코드 </a></br>
+① <a href="https://github.com/Gnyo/gamepgm/tree/main/0926"> 강의 정리 & 코드 </a></br>
 
 #### 1010
-① <a href="https://github.com/Gnyo/gamepgm/tree/main/0919"> 게임 업그레이드 </a></br>
-② <a href="https://github.com/Gnyo/gamepgm/tree/main/0919"> 게임 패치 </a></br>
+① <a href="https://github.com/Gnyo/gamepgm/tree/main/1010"> 게임 업그레이드 </a></br>
+② <a href="https://github.com/Gnyo/gamepgm/tree/main/1010"> 게임 패치 </a></br>
