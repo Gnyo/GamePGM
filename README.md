@@ -3,7 +3,7 @@
 </div>
 </br>
 
-### Web Programming🖥️
+### Game Programming🖥️
 <img src="https://img.shields.io/badge/C-20232a.svg?style=for-the-badge&logo=c&logoColor=A8B9CC"/> <img src="https://img.shields.io/badge/C++-20232a.svg?style=for-the-badge&logo=c%2B%2B&logoColor=00599C"/></br></br>
 
 ### Study✏️
