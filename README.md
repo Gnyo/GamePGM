@@ -25,9 +25,6 @@
 ③ <a href="https://github.com/Gnyo/gamepgm/blob/main/1010/%EA%B3%A0%EC%9E%A5%EB%82%9C_%ED%94%BC%EC%B2%98%ED%8F%B0.cpp"> 게임 업그레이드 파일 - 고장난 피처폰 </a></br>
 ④ <a href="https://github.com/Gnyo/gamepgm/blob/main/1010/%EA%B3%A0%EC%9E%A5%EB%82%9C_%ED%94%BC%EC%B2%98%ED%8F%B0_%EC%88%98%EC%A0%95%EB%B3%B8.cpp"> 게임 업그레이드본 패치 파일 - 고장난 피처폰 수정본 </a></br>
 
-#### 1031
-① <a href="https://github.com/Gnyo/gamepgm/tree/main/1031"> 강의 정리 & 실습 </a></br>
-
 #### 1107
 ① <a href="https://github.com/Gnyo/gamepgm/tree/main/1107"> 강의 정리 & 실습 </a></br>
 
