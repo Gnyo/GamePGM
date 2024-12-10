@@ -1,4 +1,4 @@
-# Game Programming 07
+# Game Programming 06
 ### 🔧 Unity(유니티)
 
 </br>
