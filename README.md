@@ -4,7 +4,7 @@
 </br>
 
 ### Game Programming🖥️
-<img src="https://img.shields.io/badge/C-20232a.svg?style=for-the-badge&logo=c&logoColor=A8B9CC"/> <img src="https://img.shields.io/badge/C++-20232a.svg?style=for-the-badge&logo=c%2B%2B&logoColor=00599C"/></br></br>
+<img src="https://img.shields.io/badge/C-20232a.svg?style=for-the-badge&logo=c&logoColor=A8B9CC"/> <img src="https://img.shields.io/badge/C++-20232a.svg?style=for-the-badge&logo=c%2B%2B&logoColor=00599C"/> <img src="https://img.shields.io/badge/C%23-20232a.svg?style=for-the-badge&logo=c%23&logoColor=00599C"/></br></br>
 
 ### Study✏️
 | 날짜  | 내용 |
