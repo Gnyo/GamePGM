@@ -182,7 +182,7 @@ void shuffle_card(trump m_card[]){
 - time(NULL)은 1970년 1월 1일 0시부터 현재까지 흐른 시간(초단위)을 반환
 
 #### 난수 생성
-```
+```c
 #include <stdio.h> 
 #include <stdlib.h> 
 #include <time.h> 
