@@ -1,0 +1,56 @@
+# ===== Unity 기본 =====
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# ===== Visual Studio 관련 =====
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# ===== OS 별로 무시할 것들 =====
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# ===== 빌드 산출물 =====
+*.apk
+*.aab
+*.app
+*.exe
+*.pdb
+
+# ===== 기타 =====
+*.log
+*.bak
+*.tmp
+*.orig
+*.swp
+*.swn
+*.swo
+*.sass-cache
+
+# ===== Unity Cloud Build =====
+.cloud/
+
+# ===== JetBrains Rider =====
+.idea/
+*.sln.iml
