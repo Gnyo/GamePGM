@@ -2,7 +2,7 @@
 
 ### 1. 커서 위치 제어
 - gotoxy라는 함수로 출력할 단어의 위치를 제어한다.
-```
+```c
 #include <stdio.h>
 #include <windows.h>
 
@@ -25,10 +25,11 @@ void gotoxy(int x, int y){
 ![image](https://github.com/user-attachments/assets/3311412b-019d-4ce2-b787-7eb34ffba771)
 ---|
 
+---
 
 ### 2. 원하는 위치에 구구단 3단 출력
 - gotoxy 함수로 위치를 원하는 곳으로 제어하여 구구단 3단을 출력한다.
-```
+```c
 #include <stdio.h>
 #include <windows.h>
 
@@ -53,10 +54,11 @@ void gotoxy(int x, int y) {
 ![image](https://github.com/user-attachments/assets/8cdbd214-13d7-4f4f-897b-a0a7cb10356c)
 ---|
 
+---
 
 ### 3. 문자 하나 입력 후 화면 지우기
 - 문자 하나를 입력 받고, 화면을 지운 후 입력된 문자를 출력한다.
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -74,9 +76,10 @@ int main(void) {
 ![image](https://github.com/user-attachments/assets/9e6c74b1-a2f4-469e-a3a1-9be3a827c9fc) | ![image](https://github.com/user-attachments/assets/6b238618-30cd-4443-b79e-0d279f99414a) | ![image](https://github.com/user-attachments/assets/903b1336-b8d4-4286-b349-c0dd69376770)
 ---|---|---
 
+---
 
 ### 4. 구구단 출력, 키 입력하면 화면 지우고 다음 단 출력
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -96,9 +99,10 @@ int main(void) {
 ![image](https://github.com/user-attachments/assets/5d640364-f921-4b09-aca6-9e9caa041ebb) | ![image](https://github.com/user-attachments/assets/78a60935-bf6f-4717-915c-73de92496645) | ![image](https://github.com/user-attachments/assets/4863832c-be50-42b4-bf9d-90577e192fb8)
 ---|---|---
 
+---
 
 ### 5. 키보드 입력 시 해당 키의 아스키코드 출력
-```
+```c
 #include <stdio.h>
 #include <conio.h>
 
@@ -121,10 +125,11 @@ int main(void) {
 ---|---|---
 아무것도 누르지 않은 상태 | 'a'키를 누른 상태 | '`', 'A'를 차례로 누른 상태
 
+---
 
 ### 6. 방향키로 이동
 - system("cls"); 라는 문장을 추가으로 방향키로 이동 후 이전 값은 지운다.
-```
+```c
 #include <stdio.h>
 #include <conio.h>
 #include <windows.h>
@@ -183,6 +188,8 @@ void gotoxy(int x, int y) {
 ---|---|---
 화면 비우기 문장이 없음: 컴파일한 후 방향키 이동 | 화면 비우기 문장이 있음 | 방향키로 위치를 조정한 상태
 
+---
+
 ### 7. 길이가 n인 정사각형 출력
 - 길이가 n인 표준 정사각형은 다음과 같이 반복적인 방법으로 정사각형의 크기를 표현 할 수 있다.
 - 아래의 그림에서 숫자는 출력할 순서를 의미
@@ -190,7 +197,7 @@ void gotoxy(int x, int y) {
 ![image](https://github.com/user-attachments/assets/00c05ca6-7b88-465f-a4e9-4cd64bb2153e)
 ---|
 
-```
+```c
 #include <stdio.h>
 
 void draw_square(int size);
@@ -233,11 +240,12 @@ void draw_square(int size) {
 ![image](https://github.com/user-attachments/assets/6e6d11a4-70b9-4389-b9a4-49dd25a98676) | ![image](https://github.com/user-attachments/assets/0bb6a14b-cedc-46df-ad63-c4c5e3e94263)
 ---|---
 
+---
 
 ### 8. 메뉴 만들기(1)
 - 키보드로 값을 입력하면 아스키코드로 받아진다.
 - select=getch()-48; 라는 문장을 추가하여 키보드로 받은 값에서 아스키코드 0의 값(48)을 뺀다.
-```
+```c
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
@@ -306,8 +314,10 @@ void press_any_key(void) {
 ---|---|---
 1번을 누른 상태 | 2번을 누른 상태 | 3번을 눌러 프로그램을 종료한 상태
 
+---
+
 ### 9. 더 다양한 메뉴 만들기
-```
+```c
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
@@ -451,10 +461,12 @@ void press_any_key(void) {
 ---|---|---
 첫 메뉴의 2번을 누른 상태 | 두번째 메뉴의 1번을 누른 상태 | 두번째 메뉴의 2번을 누른 상태
 
+---
+
 ### 10. 주사위 눈금 난수 생성
 - srand()는 난수를 만드는 함수로, 함수의 매개변수에 계속 변하는 시간값을 전달하여 매번 새로운 난수를 생성하는 것이 원리이다.
 - time(null)은 현재 시간을 초단위로 구하는 함수이다.
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -470,7 +482,3 @@ int main(void) {
 
 ![image](https://github.com/user-attachments/assets/6d47867e-a918-4d54-a835-c1837501f5ce) | ![image](https://github.com/user-attachments/assets/df8defab-2656-4105-b994-95ac18208ea6)
 ---|---
-
-
----
-
